@@ -1,0 +1,8 @@
+﻿   Qt/MSBuild: 3.3.1.0
+   Qt: 6.5.3
+  EventDetailDialog.cpp
+  EventManager.cpp
+  main.cpp
+  moc_EventDetailDialog.cpp
+  moc_EventManager.cpp
+  事件管理模块.vcxproj -> F:\vs\事件管理模块\x64\Debug\事件管理模块.exe
