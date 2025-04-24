@@ -1,0 +1,11 @@
+release/EventDetailDialog.o
+release/EventDialog.o
+release/EventManager.o
+release/EventDialog.o
+release/EventManager.o
+release/main.o
+release/Data_analysis_display.o
+release/moc_EventDetailDialog.o
+release/moc_EventDialog.o
+release/moc_EventManager.o
+release/moc_Data_analysis_display.o

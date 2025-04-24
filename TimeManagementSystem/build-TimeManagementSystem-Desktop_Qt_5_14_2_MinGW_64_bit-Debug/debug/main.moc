@@ -1,0 +1,1201 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'main.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.14.2)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <memory>
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'main.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.14.2. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_AnalysisReportWidget_t {
+    QByteArrayData data[1];
+    char stringdata0[21];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_AnalysisReportWidget_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_AnalysisReportWidget_t qt_meta_stringdata_AnalysisReportWidget = {
+    {
+QT_MOC_LITERAL(0, 0, 20) // "AnalysisReportWidget"
+
+    },
+    "AnalysisReportWidget"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_AnalysisReportWidget[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void AnalysisReportWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject AnalysisReportWidget::staticMetaObject = { {
+    QMetaObject::SuperData::link<QWidget::staticMetaObject>(),
+    qt_meta_stringdata_AnalysisReportWidget.data,
+    qt_meta_data_AnalysisReportWidget,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *AnalysisReportWidget::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *AnalysisReportWidget::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_AnalysisReportWidget.stringdata0))
+        return static_cast<void*>(this);
+    return QWidget::qt_metacast(_clname);
+}
+
+int AnalysisReportWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QWidget::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_ReportNotesWidget_t {
+    QByteArrayData data[8];
+    char stringdata0[80];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_ReportNotesWidget_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_ReportNotesWidget_t qt_meta_stringdata_ReportNotesWidget = {
+    {
+QT_MOC_LITERAL(0, 0, 17), // "ReportNotesWidget"
+QT_MOC_LITERAL(1, 18, 14), // "onNoteSelected"
+QT_MOC_LITERAL(2, 33, 0), // ""
+QT_MOC_LITERAL(3, 34, 11), // "QModelIndex"
+QT_MOC_LITERAL(4, 46, 5), // "index"
+QT_MOC_LITERAL(5, 52, 7), // "addNote"
+QT_MOC_LITERAL(6, 60, 8), // "editNote"
+QT_MOC_LITERAL(7, 69, 10) // "deleteNote"
+
+    },
+    "ReportNotesWidget\0onNoteSelected\0\0"
+    "QModelIndex\0index\0addNote\0editNote\0"
+    "deleteNote"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_ReportNotesWidget[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       4,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    1,   34,    2, 0x08 /* Private */,
+       5,    0,   37,    2, 0x08 /* Private */,
+       6,    0,   38,    2, 0x08 /* Private */,
+       7,    0,   39,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void, 0x80000000 | 3,    4,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void ReportNotesWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<ReportNotesWidget *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->onNoteSelected((*reinterpret_cast< const QModelIndex(*)>(_a[1]))); break;
+        case 1: _t->addNote(); break;
+        case 2: _t->editNote(); break;
+        case 3: _t->deleteNote(); break;
+        default: ;
+        }
+    }
+}
+
+QT_INIT_METAOBJECT const QMetaObject ReportNotesWidget::staticMetaObject = { {
+    QMetaObject::SuperData::link<QWidget::staticMetaObject>(),
+    qt_meta_stringdata_ReportNotesWidget.data,
+    qt_meta_data_ReportNotesWidget,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *ReportNotesWidget::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *ReportNotesWidget::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_ReportNotesWidget.stringdata0))
+        return static_cast<void*>(this);
+    return QWidget::qt_metacast(_clname);
+}
+
+int ReportNotesWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 4)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 4;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 4)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 4;
+    }
+    return _id;
+}
+struct qt_meta_stringdata_ReportWidget_t {
+    QByteArrayData data[1];
+    char stringdata0[13];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_ReportWidget_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_ReportWidget_t qt_meta_stringdata_ReportWidget = {
+    {
+QT_MOC_LITERAL(0, 0, 12) // "ReportWidget"
+
+    },
+    "ReportWidget"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_ReportWidget[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void ReportWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject ReportWidget::staticMetaObject = { {
+    QMetaObject::SuperData::link<QWidget::staticMetaObject>(),
+    qt_meta_stringdata_ReportWidget.data,
+    qt_meta_data_ReportWidget,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *ReportWidget::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *ReportWidget::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_ReportWidget.stringdata0))
+        return static_cast<void*>(this);
+    return QWidget::qt_metacast(_clname);
+}
+
+int ReportWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QWidget::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_TaskInputDialog_t {
+    QByteArrayData data[4];
+    char stringdata0[40];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_TaskInputDialog_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_TaskInputDialog_t qt_meta_stringdata_TaskInputDialog = {
+    {
+QT_MOC_LITERAL(0, 0, 15), // "TaskInputDialog"
+QT_MOC_LITERAL(1, 16, 13), // "taskSubmitted"
+QT_MOC_LITERAL(2, 30, 0), // ""
+QT_MOC_LITERAL(3, 31, 8) // "onSubmit"
+
+    },
+    "TaskInputDialog\0taskSubmitted\0\0onSubmit"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_TaskInputDialog[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       2,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       1,       // signalCount
+
+ // signals: name, argc, parameters, tag, flags
+       1,    0,   24,    2, 0x06 /* Public */,
+
+ // slots: name, argc, parameters, tag, flags
+       3,    0,   25,    2, 0x08 /* Private */,
+
+ // signals: parameters
+    QMetaType::Void,
+
+ // slots: parameters
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void TaskInputDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<TaskInputDialog *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->taskSubmitted(); break;
+        case 1: _t->onSubmit(); break;
+        default: ;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            using _t = void (TaskInputDialog::*)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&TaskInputDialog::taskSubmitted)) {
+                *result = 0;
+                return;
+            }
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject TaskInputDialog::staticMetaObject = { {
+    QMetaObject::SuperData::link<QDialog::staticMetaObject>(),
+    qt_meta_stringdata_TaskInputDialog.data,
+    qt_meta_data_TaskInputDialog,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *TaskInputDialog::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *TaskInputDialog::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_TaskInputDialog.stringdata0))
+        return static_cast<void*>(this);
+    return QDialog::qt_metacast(_clname);
+}
+
+int TaskInputDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QDialog::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 2)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 2;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 2)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 2;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void TaskInputDialog::taskSubmitted()
+{
+    QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
+}
+struct qt_meta_stringdata_ToDoModule_t {
+    QByteArrayData data[14];
+    char stringdata0[156];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_ToDoModule_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_ToDoModule_t qt_meta_stringdata_ToDoModule = {
+    {
+QT_MOC_LITERAL(0, 0, 10), // "ToDoModule"
+QT_MOC_LITERAL(1, 11, 9), // "onAddTask"
+QT_MOC_LITERAL(2, 21, 0), // ""
+QT_MOC_LITERAL(3, 22, 14), // "onMarkComplete"
+QT_MOC_LITERAL(4, 37, 16), // "onMarkIncomplete"
+QT_MOC_LITERAL(5, 54, 10), // "onEditTask"
+QT_MOC_LITERAL(6, 65, 12), // "onDeleteTask"
+QT_MOC_LITERAL(7, 78, 14), // "checkReminders"
+QT_MOC_LITERAL(8, 93, 9), // "loadTasks"
+QT_MOC_LITERAL(9, 103, 10), // "onAddImage"
+QT_MOC_LITERAL(10, 114, 12), // "onViewImages"
+QT_MOC_LITERAL(11, 127, 16), // "QTreeWidgetItem*"
+QT_MOC_LITERAL(12, 144, 4), // "item"
+QT_MOC_LITERAL(13, 149, 6) // "column"
+
+    },
+    "ToDoModule\0onAddTask\0\0onMarkComplete\0"
+    "onMarkIncomplete\0onEditTask\0onDeleteTask\0"
+    "checkReminders\0loadTasks\0onAddImage\0"
+    "onViewImages\0QTreeWidgetItem*\0item\0"
+    "column"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_ToDoModule[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       9,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,   59,    2, 0x08 /* Private */,
+       3,    0,   60,    2, 0x08 /* Private */,
+       4,    0,   61,    2, 0x08 /* Private */,
+       5,    0,   62,    2, 0x08 /* Private */,
+       6,    0,   63,    2, 0x08 /* Private */,
+       7,    0,   64,    2, 0x08 /* Private */,
+       8,    0,   65,    2, 0x08 /* Private */,
+       9,    0,   66,    2, 0x08 /* Private */,
+      10,    2,   67,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void, 0x80000000 | 11, QMetaType::Int,   12,   13,
+
+       0        // eod
+};
+
+void ToDoModule::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<ToDoModule *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->onAddTask(); break;
+        case 1: _t->onMarkComplete(); break;
+        case 2: _t->onMarkIncomplete(); break;
+        case 3: _t->onEditTask(); break;
+        case 4: _t->onDeleteTask(); break;
+        case 5: _t->checkReminders(); break;
+        case 6: _t->loadTasks(); break;
+        case 7: _t->onAddImage(); break;
+        case 8: _t->onViewImages((*reinterpret_cast< QTreeWidgetItem*(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        default: ;
+        }
+    }
+}
+
+QT_INIT_METAOBJECT const QMetaObject ToDoModule::staticMetaObject = { {
+    QMetaObject::SuperData::link<QWidget::staticMetaObject>(),
+    qt_meta_stringdata_ToDoModule.data,
+    qt_meta_data_ToDoModule,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *ToDoModule::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *ToDoModule::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_ToDoModule.stringdata0))
+        return static_cast<void*>(this);
+    return QWidget::qt_metacast(_clname);
+}
+
+int ToDoModule::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 9)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 9;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 9)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 9;
+    }
+    return _id;
+}
+struct qt_meta_stringdata_OtherFunctionsWidget_t {
+    QByteArrayData data[3];
+    char stringdata0[35];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_OtherFunctionsWidget_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_OtherFunctionsWidget_t qt_meta_stringdata_OtherFunctionsWidget = {
+    {
+QT_MOC_LITERAL(0, 0, 20), // "OtherFunctionsWidget"
+QT_MOC_LITERAL(1, 21, 12), // "returnToMain"
+QT_MOC_LITERAL(2, 34, 0) // ""
+
+    },
+    "OtherFunctionsWidget\0returnToMain\0"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_OtherFunctionsWidget[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       1,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       1,       // signalCount
+
+ // signals: name, argc, parameters, tag, flags
+       1,    0,   19,    2, 0x06 /* Public */,
+
+ // signals: parameters
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void OtherFunctionsWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<OtherFunctionsWidget *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->returnToMain(); break;
+        default: ;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            using _t = void (OtherFunctionsWidget::*)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&OtherFunctionsWidget::returnToMain)) {
+                *result = 0;
+                return;
+            }
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject OtherFunctionsWidget::staticMetaObject = { {
+    QMetaObject::SuperData::link<QWidget::staticMetaObject>(),
+    qt_meta_stringdata_OtherFunctionsWidget.data,
+    qt_meta_data_OtherFunctionsWidget,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *OtherFunctionsWidget::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *OtherFunctionsWidget::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_OtherFunctionsWidget.stringdata0))
+        return static_cast<void*>(this);
+    return QWidget::qt_metacast(_clname);
+}
+
+int OtherFunctionsWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 1)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 1)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 1;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void OtherFunctionsWidget::returnToMain()
+{
+    QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
+}
+struct qt_meta_stringdata_ThumbnailLabel_t {
+    QByteArrayData data[4];
+    char stringdata0[40];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_ThumbnailLabel_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_ThumbnailLabel_t qt_meta_stringdata_ThumbnailLabel = {
+    {
+QT_MOC_LITERAL(0, 0, 14), // "ThumbnailLabel"
+QT_MOC_LITERAL(1, 15, 13), // "doubleClicked"
+QT_MOC_LITERAL(2, 29, 0), // ""
+QT_MOC_LITERAL(3, 30, 9) // "imagePath"
+
+    },
+    "ThumbnailLabel\0doubleClicked\0\0imagePath"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_ThumbnailLabel[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       1,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       1,       // signalCount
+
+ // signals: name, argc, parameters, tag, flags
+       1,    1,   19,    2, 0x06 /* Public */,
+
+ // signals: parameters
+    QMetaType::Void, QMetaType::QString,    3,
+
+       0        // eod
+};
+
+void ThumbnailLabel::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<ThumbnailLabel *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->doubleClicked((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        default: ;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            using _t = void (ThumbnailLabel::*)(const QString & );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&ThumbnailLabel::doubleClicked)) {
+                *result = 0;
+                return;
+            }
+        }
+    }
+}
+
+QT_INIT_METAOBJECT const QMetaObject ThumbnailLabel::staticMetaObject = { {
+    QMetaObject::SuperData::link<QLabel::staticMetaObject>(),
+    qt_meta_stringdata_ThumbnailLabel.data,
+    qt_meta_data_ThumbnailLabel,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *ThumbnailLabel::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *ThumbnailLabel::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_ThumbnailLabel.stringdata0))
+        return static_cast<void*>(this);
+    return QLabel::qt_metacast(_clname);
+}
+
+int ThumbnailLabel::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QLabel::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 1)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 1)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 1;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void ThumbnailLabel::doubleClicked(const QString & _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+struct qt_meta_stringdata_TaskDetailDialog_t {
+    QByteArrayData data[16];
+    char stringdata0[181];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_TaskDetailDialog_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_TaskDetailDialog_t qt_meta_stringdata_TaskDetailDialog = {
+    {
+QT_MOC_LITERAL(0, 0, 16), // "TaskDetailDialog"
+QT_MOC_LITERAL(1, 17, 10), // "loadRecord"
+QT_MOC_LITERAL(2, 28, 0), // ""
+QT_MOC_LITERAL(3, 29, 10), // "loadImages"
+QT_MOC_LITERAL(4, 40, 10), // "onAddImage"
+QT_MOC_LITERAL(5, 51, 13), // "onDeleteImage"
+QT_MOC_LITERAL(6, 65, 5), // "imgID"
+QT_MOC_LITERAL(7, 71, 14), // "onReplaceImage"
+QT_MOC_LITERAL(8, 86, 13), // "onZoomChanged"
+QT_MOC_LITERAL(9, 100, 5), // "value"
+QT_MOC_LITERAL(10, 106, 10), // "saveRecord"
+QT_MOC_LITERAL(11, 117, 12), // "deleteRecord"
+QT_MOC_LITERAL(12, 130, 11), // "onPickColor"
+QT_MOC_LITERAL(13, 142, 14), // "onSetCardColor"
+QT_MOC_LITERAL(14, 157, 13), // "showImageFull"
+QT_MOC_LITERAL(15, 171, 9) // "imagePath"
+
+    },
+    "TaskDetailDialog\0loadRecord\0\0loadImages\0"
+    "onAddImage\0onDeleteImage\0imgID\0"
+    "onReplaceImage\0onZoomChanged\0value\0"
+    "saveRecord\0deleteRecord\0onPickColor\0"
+    "onSetCardColor\0showImageFull\0imagePath"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_TaskDetailDialog[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      11,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,   69,    2, 0x08 /* Private */,
+       3,    0,   70,    2, 0x08 /* Private */,
+       4,    0,   71,    2, 0x08 /* Private */,
+       5,    1,   72,    2, 0x08 /* Private */,
+       7,    1,   75,    2, 0x08 /* Private */,
+       8,    1,   78,    2, 0x08 /* Private */,
+      10,    0,   81,    2, 0x08 /* Private */,
+      11,    0,   82,    2, 0x08 /* Private */,
+      12,    0,   83,    2, 0x08 /* Private */,
+      13,    0,   84,    2, 0x08 /* Private */,
+      14,    1,   85,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void, QMetaType::Int,    6,
+    QMetaType::Void, QMetaType::Int,    6,
+    QMetaType::Void, QMetaType::Int,    9,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void, QMetaType::QString,   15,
+
+       0        // eod
+};
+
+void TaskDetailDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<TaskDetailDialog *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->loadRecord(); break;
+        case 1: _t->loadImages(); break;
+        case 2: _t->onAddImage(); break;
+        case 3: _t->onDeleteImage((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 4: _t->onReplaceImage((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 5: _t->onZoomChanged((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 6: _t->saveRecord(); break;
+        case 7: _t->deleteRecord(); break;
+        case 8: _t->onPickColor(); break;
+        case 9: _t->onSetCardColor(); break;
+        case 10: _t->showImageFull((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        default: ;
+        }
+    }
+}
+
+QT_INIT_METAOBJECT const QMetaObject TaskDetailDialog::staticMetaObject = { {
+    QMetaObject::SuperData::link<QDialog::staticMetaObject>(),
+    qt_meta_stringdata_TaskDetailDialog.data,
+    qt_meta_data_TaskDetailDialog,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *TaskDetailDialog::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *TaskDetailDialog::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_TaskDetailDialog.stringdata0))
+        return static_cast<void*>(this);
+    return QDialog::qt_metacast(_clname);
+}
+
+int TaskDetailDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QDialog::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 11)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 11;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 11)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 11;
+    }
+    return _id;
+}
+struct qt_meta_stringdata_RecordCard_t {
+    QByteArrayData data[9];
+    char stringdata0[83];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_RecordCard_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_RecordCard_t qt_meta_stringdata_RecordCard = {
+    {
+QT_MOC_LITERAL(0, 0, 10), // "RecordCard"
+QT_MOC_LITERAL(1, 11, 15), // "requestSetImage"
+QT_MOC_LITERAL(2, 27, 0), // ""
+QT_MOC_LITERAL(3, 28, 2), // "id"
+QT_MOC_LITERAL(4, 31, 16), // "RecordCard::Type"
+QT_MOC_LITERAL(5, 48, 4), // "type"
+QT_MOC_LITERAL(6, 53, 9), // "activated"
+QT_MOC_LITERAL(7, 63, 8), // "recordID"
+QT_MOC_LITERAL(8, 72, 10) // "RecordType"
+
+    },
+    "RecordCard\0requestSetImage\0\0id\0"
+    "RecordCard::Type\0type\0activated\0"
+    "recordID\0RecordType"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_RecordCard[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       2,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       2,       // signalCount
+
+ // signals: name, argc, parameters, tag, flags
+       1,    2,   24,    2, 0x06 /* Public */,
+       6,    2,   29,    2, 0x06 /* Public */,
+
+ // signals: parameters
+    QMetaType::Void, QMetaType::Int, 0x80000000 | 4,    3,    5,
+    QMetaType::Void, QMetaType::Int, 0x80000000 | 8,    7,    5,
+
+       0        // eod
+};
+
+void RecordCard::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<RecordCard *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->requestSetImage((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< RecordCard::Type(*)>(_a[2]))); break;
+        case 1: _t->activated((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< RecordType(*)>(_a[2]))); break;
+        default: ;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            using _t = void (RecordCard::*)(int , RecordCard::Type );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&RecordCard::requestSetImage)) {
+                *result = 0;
+                return;
+            }
+        }
+        {
+            using _t = void (RecordCard::*)(int , RecordType );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&RecordCard::activated)) {
+                *result = 1;
+                return;
+            }
+        }
+    }
+}
+
+QT_INIT_METAOBJECT const QMetaObject RecordCard::staticMetaObject = { {
+    QMetaObject::SuperData::link<QFrame::staticMetaObject>(),
+    qt_meta_stringdata_RecordCard.data,
+    qt_meta_data_RecordCard,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *RecordCard::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *RecordCard::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_RecordCard.stringdata0))
+        return static_cast<void*>(this);
+    return QFrame::qt_metacast(_clname);
+}
+
+int RecordCard::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QFrame::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 2)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 2;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 2)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 2;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void RecordCard::requestSetImage(int _t1, RecordCard::Type _t2)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t2))) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+
+// SIGNAL 1
+void RecordCard::activated(int _t1, RecordType _t2)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t2))) };
+    QMetaObject::activate(this, &staticMetaObject, 1, _a);
+}
+struct qt_meta_stringdata_WeekViewWidget_t {
+    QByteArrayData data[11];
+    char stringdata0[130];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_WeekViewWidget_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_WeekViewWidget_t qt_meta_stringdata_WeekViewWidget = {
+    {
+QT_MOC_LITERAL(0, 0, 14), // "WeekViewWidget"
+QT_MOC_LITERAL(1, 15, 10), // "onPrevWeek"
+QT_MOC_LITERAL(2, 26, 0), // ""
+QT_MOC_LITERAL(3, 27, 10), // "onNextWeek"
+QT_MOC_LITERAL(4, 38, 18), // "openOtherFunctions"
+QT_MOC_LITERAL(5, 57, 13), // "onTaskClicked"
+QT_MOC_LITERAL(6, 71, 16), // "QTreeWidgetItem*"
+QT_MOC_LITERAL(7, 88, 4), // "item"
+QT_MOC_LITERAL(8, 93, 6), // "column"
+QT_MOC_LITERAL(9, 100, 17), // "onDateTimeChanged"
+QT_MOC_LITERAL(10, 118, 11) // "newDateTime"
+
+    },
+    "WeekViewWidget\0onPrevWeek\0\0onNextWeek\0"
+    "openOtherFunctions\0onTaskClicked\0"
+    "QTreeWidgetItem*\0item\0column\0"
+    "onDateTimeChanged\0newDateTime"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_WeekViewWidget[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       5,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,   39,    2, 0x08 /* Private */,
+       3,    0,   40,    2, 0x08 /* Private */,
+       4,    0,   41,    2, 0x08 /* Private */,
+       5,    2,   42,    2, 0x08 /* Private */,
+       9,    1,   47,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void, 0x80000000 | 6, QMetaType::Int,    7,    8,
+    QMetaType::Void, QMetaType::QDateTime,   10,
+
+       0        // eod
+};
+
+void WeekViewWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<WeekViewWidget *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->onPrevWeek(); break;
+        case 1: _t->onNextWeek(); break;
+        case 2: _t->openOtherFunctions(); break;
+        case 3: _t->onTaskClicked((*reinterpret_cast< QTreeWidgetItem*(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 4: _t->onDateTimeChanged((*reinterpret_cast< const QDateTime(*)>(_a[1]))); break;
+        default: ;
+        }
+    }
+}
+
+QT_INIT_METAOBJECT const QMetaObject WeekViewWidget::staticMetaObject = { {
+    QMetaObject::SuperData::link<QWidget::staticMetaObject>(),
+    qt_meta_stringdata_WeekViewWidget.data,
+    qt_meta_data_WeekViewWidget,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *WeekViewWidget::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *WeekViewWidget::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_WeekViewWidget.stringdata0))
+        return static_cast<void*>(this);
+    return QWidget::qt_metacast(_clname);
+}
+
+int WeekViewWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 5)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 5;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 5)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 5;
+    }
+    return _id;
+}
+struct qt_meta_stringdata_MainWindow_t {
+    QByteArrayData data[1];
+    char stringdata0[11];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_MainWindow_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_MainWindow_t qt_meta_stringdata_MainWindow = {
+    {
+QT_MOC_LITERAL(0, 0, 10) // "MainWindow"
+
+    },
+    "MainWindow"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_MainWindow[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject MainWindow::staticMetaObject = { {
+    QMetaObject::SuperData::link<QMainWindow::staticMetaObject>(),
+    qt_meta_stringdata_MainWindow.data,
+    qt_meta_data_MainWindow,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *MainWindow::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *MainWindow::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_MainWindow.stringdata0))
+        return static_cast<void*>(this);
+    return QMainWindow::qt_metacast(_clname);
+}
+
+int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QMainWindow::qt_metacall(_c, _id, _a);
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE
