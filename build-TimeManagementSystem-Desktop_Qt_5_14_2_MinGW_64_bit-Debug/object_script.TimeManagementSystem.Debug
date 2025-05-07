@@ -1,0 +1,11 @@
+debug/EventDetailDialog.o
+debug/EventDialog.o
+debug/EventManager.o
+debug/EventDialog.o
+debug/EventManager.o
+debug/main.o
+debug/Data_analysis_display.o
+debug/moc_EventDetailDialog.o
+debug/moc_EventDialog.o
+debug/moc_EventManager.o
+debug/moc_Data_analysis_display.o
